@@ -1,0 +1,7 @@
+{
+  "hosts": ["ecetesla1", "ecetesla2", "ecetesla4"],
+  "domain": "uwaterloo.ca",
+  "master": "ecetesla1",
+  "ports": {"master": 17377, "master_ui": 17380, "worker": 17378, "worker_ui": 17381, "driver": 17379, "block_manager": 17382, "driver_block_manager": 17383, "application_ui": 17384},
+  "local_root": "/tmp/itiapkin/spark-llm"
+}

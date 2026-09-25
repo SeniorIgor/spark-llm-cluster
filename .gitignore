@@ -1,0 +1,25 @@
+# macOS metadata
+._*
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Runtime state
+*.pid
+*.log
+logs/
+tmp/
+venv/
+cache/
+
+# Spark runtime
+work/
+spark-events/
+
+# Model/data artifacts
+models/
+datasets/
+*.bin
+*.safetensors
