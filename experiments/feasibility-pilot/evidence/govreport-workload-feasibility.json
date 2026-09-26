@@ -1,0 +1,46 @@
+{
+  "purpose": "GovReport workload-construction feasibility check",
+  "documents_per_workload": 300,
+  "gao_per_workload": 188,
+  "crs_per_workload": 112,
+  "target_total_tokens": 3051451,
+  "seed": 20260926,
+  "workloads": {
+    "low": {
+      "documents": 300,
+      "gao": 188,
+      "crs": 112,
+      "total_tokens": 3051340,
+      "mean_tokens": 10171.133333333333,
+      "min_tokens": 7517,
+      "max_tokens": 12991,
+      "std_tokens": 1550.679056270367,
+      "cv": 0.1524588269026428,
+      "total_token_difference_pct": -0.0036365493713805706
+    },
+    "moderate": {
+      "documents": 300,
+      "gao": 188,
+      "crs": 112,
+      "total_tokens": 3029630,
+      "mean_tokens": 10098.766666666666,
+      "min_tokens": 3525,
+      "max_tokens": 19815,
+      "std_tokens": 4332.861971671329,
+      "cv": 0.4290486268954951,
+      "total_token_difference_pct": -0.7151013649976783
+    },
+    "high": {
+      "documents": 300,
+      "gao": 188,
+      "crs": 112,
+      "total_tokens": 3051739,
+      "mean_tokens": 10172.463333333333,
+      "min_tokens": 437,
+      "max_tokens": 38341,
+      "std_tokens": 8196.774162761973,
+      "cv": 0.8057806545148821,
+      "total_token_difference_pct": 0.009439197355238167
+    }
+  }
+}

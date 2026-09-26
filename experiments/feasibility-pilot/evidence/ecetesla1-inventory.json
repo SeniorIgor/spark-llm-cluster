@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-09-25T16:07:33.546711+00:00",
+  "hostname": "ecetesla1",
+  "os": {
+    "NAME": "Ubuntu",
+    "ID": "ubuntu",
+    "PRETTY_NAME": "Ubuntu 24.04.4 LTS",
+    "VERSION_ID": "24.04",
+    "VERSION": "24.04.4 LTS (Noble Numbat)",
+    "VERSION_CODENAME": "noble",
+    "ID_LIKE": "debian",
+    "HOME_URL": "https://www.ubuntu.com/",
+    "SUPPORT_URL": "https://help.ubuntu.com/",
+    "BUG_REPORT_URL": "https://bugs.launchpad.net/ubuntu/",
+    "PRIVACY_POLICY_URL": "https://www.ubuntu.com/legal/terms-and-policies/privacy-policy",
+    "UBUNTU_CODENAME": "noble",
+    "LOGO": "ubuntu-logo"
+  },
+  "python": "3.12.3",
+  "architecture": "x86_64",
+  "shell": "/bin/tcsh",
+  "java": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "openjdk version \"21.0.12\" 2026-07-21\nOpenJDK Runtime Environment (build 21.0.12+8-1-24.04-Ubuntu)\nOpenJDK 64-Bit Server VM (build 21.0.12+8-1-24.04-Ubuntu, mixed mode, sharing)\n"
+  },
+  "nvidia_smi": {
+    "returncode": 0,
+    "stdout": "Fri Sep 25 12:07:35 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.173.02             Driver Version: 580.173.02     CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA GeForce RTX 3070        Off |   00000000:0A:00.0 Off |                  N/A |\n|  0%   47C    P0             48W /  220W |       0MiB /   8192MiB |      2%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n",
+    "stderr": ""
+  },
+  "gpu": {
+    "returncode": 0,
+    "stdout": "0, GPU-841e45a9-9dfd-4f2b-beb9-4fcca4f0c57f, NVIDIA GeForce RTX 3070, 8192 MiB, 580.173.02\n",
+    "stderr": ""
+  },
+  "storage": {
+    "returncode": 0,
+    "stdout": "Filesystem                              Type  Size  Used Avail Use% Mounted on\n/dev/nvme0n1p2                          ext4  915G  288G  581G  34% /\neceservnfs.uwaterloo.ca:/export/eceServ nfs    37T  8.5T   28T  24% /home\n",
+    "stderr": ""
+  },
+  "spark_submit": null,
+  "packages": {
+    "torch": false,
+    "pyspark": false
+  },
+  "ports_bindable": {
+    "17377": true,
+    "17378": true,
+    "17379": true,
+    "17380": true,
+    "17381": true,
+    "17382": true,
+    "17383": true,
+    "17384": true
+  },
+  "peers": {
+    "ecetesla1": {
+      "ips": [
+        "129.97.92.169"
+      ],
+      "tcp22": true
+    },
+    "ecetesla2": {
+      "ips": [
+        "129.97.92.170"
+      ],
+      "tcp22": true
+    },
+    "ecetesla4": {
+      "ips": [
+        "129.97.92.171"
+      ],
+      "tcp22": true
+    }
+  }
+}

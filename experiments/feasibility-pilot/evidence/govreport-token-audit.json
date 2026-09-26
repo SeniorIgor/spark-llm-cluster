@@ -1,0 +1,100 @@
+{
+  "dataset": "launch/gov_report",
+  "configuration": "plain_text",
+  "dataset_revision": "32feeaede49fed993aef070bc4da09263fd0429a",
+  "tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+  "tokenizer_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "chunk_size_tokens": 2048,
+  "document_count": 17519,
+  "total_source_tokens": 178194565,
+  "min_tokens": 22,
+  "max_tokens": 340773,
+  "mean_tokens": 10171.503225069924,
+  "median_tokens": 8468.0,
+  "std_tokens_population": 8154.595201446599,
+  "cv_tokens": 0.801709936182077,
+  "percentiles": {
+    "p10": 3506.8,
+    "p25": 5267.0,
+    "p50": 8468.0,
+    "p75": 12735.0,
+    "p90": 17999.000000000004,
+    "p95": 22760.999999999985,
+    "p99": 39513.49999999999
+  },
+  "threshold_counts": {
+    "above_2048": 17242,
+    "above_4096": 14914,
+    "above_8192": 9112,
+    "above_16384": 2306,
+    "above_32768": 305
+  },
+  "total_chunks_2048": 95822,
+  "mean_chunks_per_document": 5.469604429476568,
+  "max_chunks_per_document": 167,
+  "malformed_records": 0,
+  "empty_records": 0,
+  "exact_duplicate_records_beyond_first": 15,
+  "top_10_longest_documents": [
+    {
+      "id": "GAO_OGC-94-33",
+      "source": "GAO",
+      "source_tokens": 340773,
+      "chunks_2048": 167
+    },
+    {
+      "id": "GAO_GAO-17-317",
+      "source": "GAO",
+      "source_tokens": 237967,
+      "chunks_2048": 117
+    },
+    {
+      "id": "GAO_GAO-10-581",
+      "source": "GAO",
+      "source_tokens": 131562,
+      "chunks_2048": 65
+    },
+    {
+      "id": "GAO_GAO-09-580",
+      "source": "GAO",
+      "source_tokens": 115449,
+      "chunks_2048": 57
+    },
+    {
+      "id": "GAO_GAO-02-360",
+      "source": "GAO",
+      "source_tokens": 107750,
+      "chunks_2048": 53
+    },
+    {
+      "id": "GAO_GAO-06-450",
+      "source": "GAO",
+      "source_tokens": 105635,
+      "chunks_2048": 52
+    },
+    {
+      "id": "GAO_GAO-10-999",
+      "source": "GAO",
+      "source_tokens": 98155,
+      "chunks_2048": 48
+    },
+    {
+      "id": "CRS_RL34742",
+      "source": "CRS",
+      "source_tokens": 97334,
+      "chunks_2048": 48
+    },
+    {
+      "id": "GAO_HEHS-98-32",
+      "source": "GAO",
+      "source_tokens": 95411,
+      "chunks_2048": 47
+    },
+    {
+      "id": "GAO_OP-94-1",
+      "source": "GAO",
+      "source_tokens": 91339,
+      "chunks_2048": 45
+    }
+  ]
+}
